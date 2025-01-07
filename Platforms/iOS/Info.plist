@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>UIDeviceFamily</key>
+	<array>
+		<integer>1</integer>
+		<integer>2</integer>
+	</array>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>arm64</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>XSAppIconAssets</key>
+	<string>Assets.xcassets/appicon.appiconset</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>CFBundleURLName</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.google.fcm</string>
+			</array>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+		</dict>
+	</array>
+	<key>CFBundleIdentifier</key>
+	<string>com.softoursistemas.conductores.iOS</string>
+	<key>CFBundleShortVersionString</key>
+	<string>2.7</string>
+	<key>CFBundleVersion</key>
+	<string>2.7</string>
+	<key>MinimumOSVersion</key>
+	<string>14.0</string>
+	<key>UIRequiresFullScreen</key>
+	<true/>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>fetch</string>
+		<string>remote-notification</string>
+		<string>location</string>
+	</array>
+	<key>GOOGLE_ANALYTICS_DEFAULT_ALLOW_ANALYTICS_STORAGE</key>
+	<true/>
+	<key>NSAllowsArbitraryLoads</key>
+	<true/>
+	<key>NSAllowsArbitraryLoadsInWebContent</key>
+	<true/>
+	<key>NSExceptionDomains</key>
+	<dict>
+		<key>https://appconductores.softoursistemas.com/</key>
+		<dict>
+			<key>NSExceptionMinimumTLSVersion</key>
+			<string>TLSv1.2</string>
+			<key>NSExceptionRequiresForwardSecrecy</key>
+			<false/>
+			<key>NSExceptionAllowsInsecureHTTPLoads</key>
+			<true/>
+			<key>NSIncludesSubdomains</key>
+			<true/>
+		</dict>
+		<key>https://maps.googleapis.com/maps/api/directions/</key>
+		<dict>
+			<key>NSExceptionMinimumTLSVersion</key>
+			<string>TLSv1.2</string>
+			<key>NSExceptionRequiresForwardSecrecy</key>
+			<false/>
+			<key>NSExceptionAllowsInsecureHTTPLoads</key>
+			<true/>
+			<key>NSIncludesSubdomains</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Uso de la ubicación para la localización del vehículo en tiempo real, mientras se ejecuta un servicio de transporte.</string>
+	<key>NSLocationWhenInUsageDescription</key>
+	<string>Uso de la ubicación para la localización del vehículo en tiempo real, mientras se ejecuta un servicio de transporte.</string>
+	<key>NSLocationUsageDescription</key>
+	<string>Uso de la ubicación para la localización del vehículo en tiempo real, mientras se ejecuta un servicio de transporte.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Uso de la ubicación para la localización del vehículo en tiempo real, mientras se ejecuta un servicio de transporte.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Uso de la ubicación para la localización del vehículo en tiempo real, mientras se ejecuta un servicio de transporte.</string>
+	<key>NSCalendarsUsageDescription</key>
+	<string>Fecha actual en uso</string>
+	<key>NSContactsUsageDescription</key>
+	<string>¿Permitir uso de contactos?</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>¿Permitir uso de micrófono?</string>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>¿Permitir uso de mediateca?</string>
+	<key>NSSiriUsageDescription</key>
+	<string>¿Permitir uso de Siri?</string>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>Uso de Bluetooth</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Uso de cámara</string>
+	<key>FirebaseAppDelegateProxyEnabled</key>
+	<string>No</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>es-ES</string>
+	<key>BGTaskSchedulerPermittedIdentifiers</key>
+	<array>
+		<string>Background Fetch</string>
+	</array>
+</dict>
+</plist>

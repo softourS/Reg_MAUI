@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1017537568821",
+    "firebase_url": "https://plannerbus-conductores.firebaseio.com",
+    "project_id": "plannerbus-conductores",
+    "storage_bucket": "plannerbus-conductores.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1017537568821:android:8d61966f0136a88b",
+        "android_client_info": {
+          "package_name": "com.softoursistemas.conductores.Droid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1017537568821-resmm3tja2u55n4pvof9rqsga4l4lbo6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsVpLjnE8PXfKFyrnIyc3-7mIm5ud38Hc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1017537568821-resmm3tja2u55n4pvof9rqsga4l4lbo6.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1017537568821-ltl9oeufu8sif0jt232kk7cacibq26mq.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.softoursistemas.conductores.iOS",
+                "app_store_id": "1388308955"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
